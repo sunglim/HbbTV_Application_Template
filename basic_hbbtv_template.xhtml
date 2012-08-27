@@ -6,9 +6,26 @@
 <title>HbbTV Application Template </title>
 <meta http-equiv="content-type" content="Content-Type: application/vnd.hbbtv.xhtml+xml" />
 
+<script type="text/javascript">
+
+window.onload = function(){
+  
+  //should be called show() function, if not the application will not be shown;
+  var app = document.getElementById('appmgr').getOwnerApplication(document);
+  app.show();
+  
+};
+
+</script>
 </head>
 
 <body>
+
+<!--
+The main page should have application manager, and should call show() at onload();
+-->
+<object id="appmgr" type="application/oipfApplicationManager" width="1" height="1"></object>
+
 <!-- the logical HbbTV Application graphic plane is 1280px horizontally by 720px vertically 
 So the every content should be draw in 1280 * 720 -->
 <div style="left: 0px; top: 0px; width: 1280px; height: 720px;  position:absolute; background-color: #F7E9E9; border:5px solid #c33;  z-index:-1;"></div>
