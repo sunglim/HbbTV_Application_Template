@@ -18,5 +18,4 @@ This project doesn't have compatibility. but is willing to follow the standard.
 
 * Needs more example.
   - As all you know HbbTV Application have simillar feature. (streaming, navigation ,..)
-* Use my HbbTV js library when you create real HbbTV Application at your office
 * fix grammertical mistake on my English document or comment or source code.
