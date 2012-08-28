@@ -3,6 +3,9 @@
 
 HbbTV application template for making HbbTV application easiliy!
 
+* WARNING
+---------
+This project doesn't have compatibility. but is willing to follow the standard.
 
 # Environment
 -------------
