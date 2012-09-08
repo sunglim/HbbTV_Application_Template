@@ -5,5 +5,5 @@ function hbbtvlib_initialize(){
 	
 	//set keyset, only defined keys can be triggered on application.
 	// RED, GREEN, YELLOW, BLUE, NAVIGATION, VCR, NUMERIC
-	app.privateData.keyset.setValue(0x1+0x2+0x4+0x8+0x10+0x20+0x100);
+	app.private.keyset.setValue(0x1+0x2+0x4+0x8+0x10+0x20+0x100);
 };
