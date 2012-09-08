@@ -15,6 +15,10 @@
 //<![CDATA[
 window.onload = function(){
   hbbtvlib_initialize();
+
+  document.addEventListener("keydown", function(e) {
+		document.getElementById("divGraphic").innerHTML = e.keyCode;
+	},false);
 };
 //]]>
 </script>
@@ -32,7 +36,7 @@ So the every content should be draw in 1280 * 720 -->
 <div style="left: 0px; top: 0px; width: 1280px; height: 720px;  position:absolute; background-color: #F7E9E9; border:1px solid #c33;  z-index:-1;"></div>
 
 <!-- Graphic safe area(Recommend), 1024 * 648 -->
-<div style="left: 128px; top: 36px; width: 1024px; height: 648px; position:absolute; z-index:1;"></div>
+<div id="divGraphic" style="left: 128px; top: 36px; width: 1024px; height: 648px; position:absolute; z-index:1;">HbbTV Template</div>
 
 </body>
 
