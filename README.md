@@ -3,7 +3,7 @@
 
 * Purpose
 ---------
-The purpose of this project is providing the environment to creat HbbTV application easiliy!
+The purpose of this project is providing the environment to create HbbTV application easily!
 
 From Transport Stream  : not yet(need your contribution), 
 ~
@@ -26,5 +26,5 @@ This project doesn't have compatibility. but is willing to follow the HbbTV Spec
 -------------
 
 * Needs more example.
-  - As all you know HbbTV Application have simillar feature. (streaming, navigation ,..)
-* fix grammertical mistake on my English document or comment or source code.
+  - As all you know HbbTV Application have similar feature. (streaming, navigation ,..)
+* fix grammatical mistake on my English document or comment or source code.
